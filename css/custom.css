@@ -1,0 +1,119 @@
+
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+    margin: 0;
+}
+img{
+    max-width: 100%;
+}
+header{
+    background-color: rgb(60, 141, 114);
+    padding: 5px;
+}
+.container{
+    margin: 0 auto;
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.logo{
+    flex-basis: 20%;
+}
+nav{
+    flex-basis: 80%;
+}
+.logo img{
+
+    width:150px;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+   
+}
+
+
+nav ul li a{
+color: aliceblue;
+text-decoration: none;
+font-size: 20px;
+letter-spacing: 0.1px;
+text-transform: capitalize;
+padding: 5px 20px;
+border-radius: 5px;
+}
+
+
+
+nav ul li a:hover{
+    background-color: rgb(6, 71, 50);
+}
+
+.heroBanner_section{
+
+        background-color: aquamarine;
+        height: 700px;
+        background-image: url(../images/neom\ 2-efzvMAIpfWY-unsplash.jpg); 
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-attachment: fixed;
+
+    }
+.heroBanner_section h1{
+     color: aliceblue;
+     font-size: 90px;
+     background-image: url(../images/neom\ 2-efzvMAIpfWY-unsplash.jpg);
+     -webkit-text-fill-color: transparent;
+     -webkit-background-clip: text;
+     font-weight: 900;
+     background-size: cover;
+     background-position: center;
+     
+ }
+
+ .gallery_section{
+
+    padding: 50px 0;
+ }
+ .gallery{
+    flex-basis: 33.33%;
+    padding: 5px;
+
+ }
+ .gallery img{
+ display: block;
+ aspect-ratio: 1/1;
+ object-fit: cover;
+ border-radius: 100px;
+ }
+
+ .team_section{
+    background-color: rgb(8, 39, 39);
+    padding: 5px 0;
+ }
+ .team{
+    display: flex;
+    gap: 10px;
+
+   
+ }
+ .team div{
+    width: 100px;
+ } 
+ .team_section .container{
+   overflow-x:scroll;
+ }
